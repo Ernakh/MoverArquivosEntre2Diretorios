@@ -78,9 +78,10 @@ namespace MoverArquivosEntre2Diretorios
                 //Directory.Move(origem, destino);
 
                 DirectoryInfo dirInfo = new DirectoryInfo(origem);
+
                 foreach (FileInfo item in dirInfo.GetFiles())
                 {
-                    File.Move(item.FullName, destino);
+                    File.Move(item.FullName, destino + "/" + item.Name);
                 }
 
                 file.Close();
