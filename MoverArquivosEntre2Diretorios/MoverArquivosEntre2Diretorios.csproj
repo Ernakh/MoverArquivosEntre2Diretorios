@@ -53,6 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="excluidor.bat" />
+    <None Include="instalador.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="diretorios.txt" />
+    <Content Include="InstallUtil.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

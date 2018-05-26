@@ -1,0 +1,2 @@
+InstallUtil D:\OneDrive\IS3\Serviço do Windows - MoverArquivosEntreDiretórios\MoverArquivosEntre2Diretorios\MoverArquivosEntre2Diretorios\bin\Debug\MoverArquivosEntre2Diretorios.exe
+pause
